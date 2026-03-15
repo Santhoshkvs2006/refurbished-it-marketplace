@@ -1,0 +1,155 @@
+/* App.css - Main UI Premium Layout */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+  background-image: url('https://images.unsplash.com/photo-1451187481015-eb7125203f58?q=80&w=1920&auto=format&fit=crop'); /* Modern Abstract Tech Globe */
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  font-family: 'Outfit', 'Inter', sans-serif;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Base overlay layer to make text readable */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(248, 250, 252, 0.85); /* Frost overlay universally */
+}
+
+/* Glassmorphism Navbar */
+.app-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(255, 255, 255, 0.85); /* Premium glass blur */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px -5px rgba(0,0,0,0.05);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+}
+
+.brand-logo {
+  margin: 0;
+  cursor: pointer;
+  color: #2563eb; /* Brand blue */
+  font-weight: 800;
+  font-size: 26px;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #2563eb 0%, #10b981 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 0.2s;
+}
+
+.brand-logo:hover {
+  opacity: 0.8;
+}
+
+.search-container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px 12px 45px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 0.95rem;
+  font-weight: 500;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.search-input:focus {
+  background: #ffffff;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-btn {
+  background: transparent;
+  color: #64748b;
+  border: 1px solid transparent;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+}
+
+.nav-btn:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.nav-btn.active {
+  background: #eff6ff;
+  color: #2563eb;
+  border-color: #bfdbfe;
+}
+
+.nav-btn.logout {
+  color: #ef4444;
+}
+
+.nav-btn.logout:hover {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.main-content {
+  animation: fadeIn 0.4s ease forwards;
+  padding: 20px;
+}
