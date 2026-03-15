@@ -1,68 +1,87 @@
-# Refurbished IT Equipment Marketplace
+# RefurbX – Refurbished IT Equipment Marketplace
 
-This project was developed during the **CTRL + ALT + HACK 2.0 Hackathon** at Loyola-ICAM College of Engineering and Technology.
+This project was developed during the **CTRL + ALT + HACK 2.0 Hackathon**.
 
 ## Project Idea
+RefurbX is a platform that connects surplus IT equipment from organizations with **students who need affordable laptops and devices for education**.  
+The goal is to reduce **electronic waste (E-Waste)** while improving digital access for students.
 
-The main goal of this project is to reduce electronic waste and support students by providing affordable refurbished IT devices.
-
-Many organizations upgrade their IT infrastructure regularly, leaving behind devices that are still functional. Our platform connects these surplus devices with students who need low-cost laptops and computers for their education.
-
-## Key Features
-
+## Features
 - Refurbished IT device marketplace
-- Product listing for laptops, desktops, and printers
+- Product listing (Laptop, Desktop, Printer)
 - Product details page
-- E-Waste Impact Score to show environmental benefits
+- Sustainability impact display
+- E-Waste Impact Score
 - Refurbishment Certificate information
-- Simple user login and dashboard
-- Student-focused affordable technology platform
+- Simple login system
+- Backend API for storing user and product data
 
-## Technologies Used
+## Tech Stack
 
-Frontend:
+Frontend
 - React.js
 - JavaScript
 - HTML
 - CSS
 
-Concept Features:
-- E-Waste Impact Score calculation
-- Refurbishment certification display
-- Sustainability-focused product information
+Backend
+- Node.js
+- Express.js
+- SQLite database
 
 ## Project Structure
-src/
-├── App.js
-├── Dashboard.js
-├── login.js
-├── Register.js
-├── Products.js
-├── ProductDetails.js
-├── Sustainability.js
 
+```
+refurbished-it-marketplace
+│
+├── backend
+│   ├── server.js
+│   ├── database.sqlite
+│   ├── users-data.json
+│   ├── clear-db.js
+│   ├── view-data.js
+│   ├── package.json
+│
+├── public
+├── src
+│   ├── App.js
+│   ├── Dashboard.js
+│   ├── login.js
+│   ├── Register.js
+│   ├── Products.js
+│   ├── ProductDetails.js
+│   ├── Sustainability.js
+│
+├── package.json
+└── README.md
+```
 
-## How to Run the Project
+## How to Run
 
-1. Install Node.js
-2. Open the project folder
-3. Run the following commands
+Clone the repository
+
+```
+git clone https://github.com/Santhoshkvs2006/refurbished-it-marketplace
+```
+
+Install dependencies
+
+```
 npm install
+```
+
+Start the application
+
+```
 npm start
-
-
-The application will start on:
-http://localhost:3000
-
+```
 
 ## Future Improvements
-
-- Integration with backend APIs
-- Database support
+- Government IT surplus integration
+- Device rental system
 - EMI option for students
-- Technician service marketplace
-- Government and corporate device partnerships
+- Technician repair marketplace
 
-## Hackathon
+---
 
-This project was created as part of a hackathon to explore innovative solutions for **digital accessibility and sustainable technology reuse**.
+Developed as part of a Hackathon project focusing on **sustainability and digital accessibility**.
