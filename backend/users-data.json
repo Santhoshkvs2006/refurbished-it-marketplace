@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "test",
+    "email": "test@gmail.com",
+    "phone": "7789324458",
+    "password": "$2a$10$HvIhKPdNeYqWQGQKqIrcpOgTYNbWw15NkJ6FLE1FviRQdIPVBwMsu",
+    "role": "technician"
+  },
+  {
+    "id": 2,
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "phone": "789632145",
+    "password": "$2a$10$tGeNpELCINJShSMEqKx5lOhmZAYdpfB5Ji3NYYs2kheC1YQr.1QyS",
+    "role": "admin"
+  },
+  {
+    "id": 3,
+    "name": "ram",
+    "email": "ramkrish@gmail.com",
+    "phone": "2398765781",
+    "password": "$2a$10$Xqy1YvG/kpyzh8L67T0spOpM9hEKBok.XClDX2ptYHrmMlnM2oe7C",
+    "role": "technician"
+  },
+  {
+    "id": 4,
+    "name": "santhosh",
+    "email": "santhosh@gmail.com",
+    "phone": "0638193445",
+    "password": "$2a$10$r47AMsW6ULBmVTqro//c8.5JB/SbXUnJwIsEo2/aG4QNQouds4iBC",
+    "role": "admin"
+  },
+  {
+    "id": 5,
+    "name": "rahul",
+    "email": "rahul@gmail.com",
+    "phone": "0638193445",
+    "password": "$2a$10$3Y/g2TKeyTbflDd4pWg.wOQs5nVPxifPB3IJoSLvfbEa66zxcw0om",
+    "role": "user"
+  },
+  {
+    "id": 6,
+    "name": "sdaa",
+    "email": "aa@gmail.com",
+    "phone": "0638193445",
+    "password": "$2a$10$rT/U5h0AeWb4nOUZXKpMNeMZuhfsqFh8gqV.SSfaFgmQ4MhBvUm0y",
+    "role": "user"
+  },
+  {
+    "id": 7,
+    "name": "rakesh",
+    "email": "rakesh@gmail.com",
+    "phone": "1232456567",
+    "password": "$2a$10$0V89z4rYUE7hUozKHhj4auAxFyQG68fTNQGV.WEs.YBB2oyidR.1i",
+    "role": "user"
+  },
+  {
+    "id": 8,
+    "name": "dhoni",
+    "email": "dhoni@gmail.com",
+    "phone": "5638790223",
+    "password": "$2a$10$aePwxO694MI71Dck89FBWep1BoFGca5RuJGPsTcSlHDncGoikm87O",
+    "role": "user"
+  },
+  {
+    "id": 9,
+    "name": "vijay",
+    "email": "vijay@gmail.com",
+    "phone": "1234567880",
+    "password": "$2a$10$4KIXsmQxTJfb.1rpgQRMSux4z8IjrHgOY/bnFeSCgHJIJL28Iz4Ra",
+    "role": "user"
+  }
+]
